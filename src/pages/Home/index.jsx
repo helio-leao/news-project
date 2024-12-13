@@ -14,9 +14,11 @@ export default function Home() {
 
   useEffect(() => {
     axios
-      .get(
-        `${API_URL}top-headlines?pageSize=${PAGE_SIZE}&country=us&apiKey=${API_KEY}`
-      )
+      .get(`${API_URL}top-headlines?pageSize=${PAGE_SIZE}&country=us`, {
+        headers: {
+          "X-Api-Key": API_KEY,
+        },
+      })
       .then(({ data }) => setPageData(data));
   }, []);
 
