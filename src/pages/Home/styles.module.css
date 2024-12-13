@@ -1,0 +1,35 @@
+.topHeadlines {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* each card 1/4 of parent + gap pixels(20px) * 3 gaps = 60px / 4 cards = 15px */
+.article {
+  width: calc(25% - 15px);
+}
+
+.articleImage {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.articleTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.articleDescription {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.articleDate {
+  display: block;
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.articleLink {
+  color: blue;
+}

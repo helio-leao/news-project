@@ -1,0 +1,13 @@
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cornflowerblue;
+  padding: 40px 20px;
+}
+
+.header__list {
+  display: flex;
+  gap: 20px;
+}

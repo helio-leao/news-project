@@ -1,0 +1,27 @@
+.article {
+  max-width: 600px;
+}
+
+.articleImage {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.articleTitle {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.articleContent {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.articleDate {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.articleLink {
+  color: blue;
+}
